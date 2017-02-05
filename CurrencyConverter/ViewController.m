@@ -9,19 +9,17 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet UITextField *initialAmountTextField;
+@property (strong, nonatomic) IBOutlet UIButton *convertButton;
+@property (strong, nonatomic) IBOutlet UILabel *currency1Label;
+@property (strong, nonatomic) IBOutlet UILabel *currency1AmountLabel;
+@property (strong, nonatomic) IBOutlet UILabel *currency2Label;
+@property (strong, nonatomic) IBOutlet UILabel *currency2AmountLabel;
+@property (strong, nonatomic) IBOutlet UILabel *currency3Label;
+@property (strong, nonatomic) IBOutlet UILabel *currency3AmountLabel;
 
 @end
 
 @implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

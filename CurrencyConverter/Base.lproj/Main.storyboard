@@ -70,6 +70,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="convertButton" destination="9Uk-g8-07V" id="3A8-IJ-HL7"/>
+                        <outlet property="currency1AmountLabel" destination="5ow-2j-gNy" id="aUu-SX-Uki"/>
+                        <outlet property="currency1Label" destination="pyo-xx-GFk" id="f08-bf-PGb"/>
+                        <outlet property="currency2AmountLabel" destination="X6T-vJ-Tl8" id="cHa-bg-qAH"/>
+                        <outlet property="currency2Label" destination="Y1K-Y6-qfF" id="y9V-fn-mCp"/>
+                        <outlet property="currency3AmountLabel" destination="tem-YY-Tyk" id="Puj-vf-bf4"/>
+                        <outlet property="currency3Label" destination="xW2-a8-Z1d" id="XVc-f9-A6u"/>
+                        <outlet property="initialAmountTextField" destination="Lt0-1i-62y" id="gNE-hq-cwe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
